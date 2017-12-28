@@ -8,7 +8,7 @@ def sort_arr_rec(A):
 
 A = [234, 67, 78, 67, 90, 56]
 #print (sort_arr_rec(A))
-print(A[1:])
+print(sort_arr_rec(A))
 
 """
 We need to short circuit the whole problem after checking the Base case,
