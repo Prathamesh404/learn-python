@@ -24,7 +24,7 @@ class User(object):
         dob = datetime.date(yyyy, mm, dd)
         age_in_days = (today -dob).days
         age_in_years = age_in_days/365
-        return int(age_in_years)
+        return int(age_in_years)ˆ
 
 user = User("Bog ledger", "19560705")
 print(user.age()) # we dont need self method.
