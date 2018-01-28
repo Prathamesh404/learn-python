@@ -4,7 +4,7 @@
 
 def reverse(stringo):
     stringo_list = list(stringo)
-    
+
     left_pointer = 0
     right_pointer = len(stringo_list) -  1
 
@@ -13,11 +13,10 @@ def reverse(stringo):
     #Swap characters.
         stringo_list[left_pointer] , stringo_list[right_pointer] = \
          stringo_list[right_pointer], stringo_list[left_pointer]
-        
+
 
     # Move towards middle
         left_pointer += 1
         right_pointer -=1
 
     return ''.join(stringo_list)
-  
