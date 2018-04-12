@@ -2,9 +2,9 @@
 According to Guido Van Rossum
 > high-level programming language, and its core design philosophy is all about code readability and a syntax which allows programmers to express concepts in a few lines.
 
+
 What most people feel about it,
 > Beautiful, like an executable pseudocode, easy to learn, varied applications ranging from Web Development, Data Science & Machine Learning.
-### The Basics.
 
 #### 1. Variables:
  Words/Phrases that act as a container to store values.
