@@ -1,17 +1,19 @@
 ## Python Dictionary
 ### Methods and their functionality
 
-1. **The `pop()` method**: It removes the specified key and returns the corresponding value. If the key is not present int the dictionary, the default is returned.
-  ```Python
+1. **The `pop()` method**: It removes the specified key and returns the corresponding value. If the key is not present int the dictionary, the default is returned. 
+
+  ```python
 #An Example
+
   ```
 
-2. **The `value()` method**: It  returns the list of
-```Python
+2. **The `value()` method** : It  returns the list of
+```python
 #An Example
 ```
 3. **The `items()` method**: It returns the list of tuples containing the entries of the dictionary.
-```Python
+```python
 #An Example
 ```
 4. **The `clear()` method**: It is method which removes all the entries in a dictionary.
