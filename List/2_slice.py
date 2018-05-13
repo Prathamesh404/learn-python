@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # ------------ Slcing the LIst ------------
 
 # a[start:end] -> items start through end-1
@@ -19,8 +20,7 @@ print(a[-2:]) # Last two items in array -> [19, 23]
 #   0   1   2   3   4   5   6
  # -7  -6  -5  -4  -3  -2  -1
 
- print(a[::-1]) # all items, reversed
- print(a[1::-1]) # First two items, reversed.
- print(a[:-3:-1]) # Last two items, reversed .
- print(a[-3::-1]) # Everything except last two items, reversed.
-   
+print(a[::-1]) # all items, reversed
+print(a[1::-1]) # First two items, reversed.
+print(a[:-3:-1]) # Last two items, reversed .
+print(a[-3::-1]) # Everything except last two items, reversed.
