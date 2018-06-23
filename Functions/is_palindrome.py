@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # This version doesn't ignore white spaces.
 def is_palindrome(string):
     return string == string[::-1]

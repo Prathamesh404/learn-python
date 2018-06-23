@@ -62,7 +62,7 @@ y = re.findall('\S+@\S+', x)
 print(y) # ["ronaldo@madrid.sp"]
 
 # Example 2
-z = re.findall('^From (\S+@\S+)', x) # the explicit start from "From" helps to start from it, but only show the result between parantheses.
+z = re.findall('^From (\S+@\S+)', x) # the explicit start from "From" helps to start from it, but only show the result between parentheses.
 print(z) # ["ronaldo@madrid.sp"]
 
 # Example 3

@@ -5,4 +5,6 @@ for v in spam.values():
 for k in spam.keys():
     print(k)
 
+for k,v in spam.items():
+    print(f"{k} => {v})")
 

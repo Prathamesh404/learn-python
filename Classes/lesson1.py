@@ -1,4 +1,4 @@
-#Classes are fundamental tools in as=ny respectable programming languages,
+#Classes are fundamental tools in any respectable programming languages,
 #Python makes it easy to make and create classes.
 # let's do it in a classic way.
 import datetime
