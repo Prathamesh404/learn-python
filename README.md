@@ -7,6 +7,8 @@ What most people feel about it,
 > Beautiful, like an executable pseudocode, easy to learn, varied applications ranging from Web Development, Data Science & Machine Learning.
 
 #### 1. Primitive Datatypes and Operators:
+<details>
+<summary>Know More</summary>
 
   ```Python
       #Numbers
@@ -134,10 +136,16 @@ What most people feel about it,
       # Use "is" instead. This checks for equality of object identity.
       'etc' is None #-> False
       None is None #-> True  
-    ```
+  ```
+</details>
+
 
 #### 2. Variables and Collections
-  ```Python
+
+<details>
+<summary>Know more</summary>
+
+```Python
   # Python has a print function
   print("I am Python, are you the Parser-Tongue?")
   #-> "I am Python, are you the Parser-Tongue?"
@@ -340,9 +348,13 @@ What most people feel about it,
   # Check for existence in a set with in
   2 in filled_set   # => True
   10 in filled_set  # => False
+
 ```
+</details>
 
 #### 3. Control Flow and Iterables.
+<details>
+<summary>Know more</summary>
 
 ```python
 
@@ -470,8 +482,14 @@ for animal in ["dog", "cat", "mouse"]:
     list(filled_dict.keys())  # => Returns ["one", "two", "three"]    
 
 ```
+</details>
+
 
 #### 4. Functions
+<details>
+<summary>Know more</summary>
+
+
 ```python
 # Use "def" to create new functions
 def add(x, y):
@@ -574,7 +592,13 @@ def keyword_args(**kwargs):
     {x: x**2 for x in range(5)}  # => {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 
 ```
+</details>
+
 #### 5. Modules
+<details>
+<summary>Know more</summary>
+
+
 ```python
 # You can import modules
 import math
@@ -609,7 +633,12 @@ dir(math)
 # over Python's built-in libraries.
 
 ```
+</details>
+
 #### 6. Classes
+<details>
+<summary>Know more</summary>
+
 ```python
 # A class attribute. It is shared by all instances of this class
 species = "H. sapiens"
@@ -878,8 +907,11 @@ print(sup.age)              # => 100
 print('Can I fly? ' + str(sup.fly)) # => Can I fly? False
 
 ```
+</details>
 
 #### 7. Advanced
+<details>
+<summary>Know more</summary>
 
 ```python
 # Generators help you make lazy code.
@@ -935,3 +967,7 @@ print(say())                 # Can you buy me a beer?
 print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
 
 ```
+</details>
+
+#### References
+[Learn X in Y minutes](https://learnxinyminutes.com/docs/python3/)
